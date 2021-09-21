@@ -1,0 +1,21 @@
+Dear {{ order.username }},
+
+This is a confirmation of your order at night owl nannies on {{ order.date }}.
+
+Brief Summary:
+    Order Number: {{ order.order_number }}
+    Order Date: {{ order.date }}
+
+    Order Total: £{{ order.order_total }}
+    Discount: £{{ order.discount_total }}
+    Grand Total: £{{ order.grand_total }}
+
+All guides and course are here to help and give the ideal information for each situation.
+
+We ave blog to share experience and voice your opinion. 
+
+Any issues, please feel free to contact NightOwl nannnies using the contact form on the main website.
+
+Happy learning!
+
+

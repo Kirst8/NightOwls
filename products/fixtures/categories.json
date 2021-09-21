@@ -1,0 +1,42 @@
+[
+    {
+       "pk":1,
+       "model":"products.category",
+       "fields":{
+          "name":"Child development",
+          "friendly_name":"Child development,sleep training,schedule,motorskills "
+       }
+    },
+    {
+       "pk":2,
+       "model":"products.category",
+       "fields":{
+          "name":"Saftey",
+          "friendly_name":"Saftey, First aid, swimming,"
+       }
+    },
+    {
+       "pk":3,
+       "model":"products.category",
+       "fields":{
+          "name":"Nutrition",
+          "friendly_name":"Nutrition, Health ,"
+       }
+    },
+    {
+       "pk":4,  
+      "model":"products.category",
+       "fields":{
+          "name":"Diversity awareness",
+          "friendly_name":"Diversity awareness,Culture, communication"
+       }
+    }, 
+    {
+    "pk":5,
+       "model":"products.category",
+       "fields":{
+          "name":"Special Offers",
+          "friendly_name":"Special offers, Deals, Promotions"
+       }
+    }
+ ]

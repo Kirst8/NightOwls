@@ -32,7 +32,7 @@
     <title>Hello, world! {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <h1>NightOwls</h1>
     <header class="container-fluid fixed-top"></header>
 
     {% if messages %}
@@ -45,8 +45,36 @@
     {% block content %}
     {% endblock %}
 
-    {% block postloadjs %}
-    {% endblock %}
+  
+        <!-- Footer -->
+        <footer class="style-footer text-center">
+          <div class="row mx-0">
+              <div class="footer-pos col-12">
+                  <!-- Facebook -->
+                  <a class="social-media" href="https://www.facebook.com" target="_blank" rel="noopener">
+                      <i class="fab fa-facebook-f fa-2x"></i>
+                  </a>
+                  <!-- Twitter -->
+                  <a class="social-media" href="https://www.twitter.com" target="_blank" rel="noopener">
+                      <i class="fab fa-twitter fa-2x"></i>
+                  </a>
+                  <!--Instagram-->
+                  <a class="social-media" href="https://www.instagram.com" target="_blank" rel="noopener">
+                      <i class="fab fa-instagram fa-2x"></i>
+                  </a>
+                  <!--- Copyright info and company name -->
+                  <p class="footer-text">NightOwls| © 2021</p>
+              </div>
+          </div>
+      </footer>
+      
+      {% block postloadjs %}
+      <script type="text/javascript">
+          $('.toast').toast('show');
+      </script>
+      {% endblock %}
+
+
 
 
     

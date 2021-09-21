@@ -1,0 +1,58 @@
+[
+    {
+       "pk":1,
+       "model":"products.category",
+       "fields":{
+          "name":"Child development",
+          "friendly_name":"Child development,sleep training,schedule,motorskills "
+       }
+    },
+    {
+       "pk":2,
+       "model":"products.category",
+       "fields":{
+          "name":"Saftey",
+          "friendly_name":"Saftey, First aid, swimming,"
+       }
+    },
+    {
+       "pk":3,
+       "model":"products.category",
+       "fields":{
+          "name":"Nutrition",
+          "friendly_name":"Nutrition, Health ,"
+       }
+    },
+    {
+       "pk":4,  
+      "model":"products.category",
+       "fields":{
+          "name":"Diversity awareness",
+          "friendly_name":"Diversity awareness,Culture, communication"
+       }
+    },
+    {
+       "pk":5,
+       "model":"products.category",
+       "fields":{
+          "name":"Coding",
+          "friendly_name":"Full stack, Front-end, Back-end, HTML, CSS, Javascript, SQL and Python"
+       }
+    },
+    {
+       "pk":6,
+       "model":"products.category",
+       "fields":{
+          "name":"System Deployment",
+          "friendly_name":"ERP, RPA and Automation"
+       }
+    },
+    {
+       "pk":7,
+       "model":"products.category",
+       "fields":{
+          "name":"Special Offers",
+          "friendly_name":"Special offers, Deals, Promotions and Clearance items"
+       }
+    }
+ ]
