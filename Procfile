@@ -1,1 +1,1 @@
-web:gunicorn night-owls.wsgi:application
+web: gunicorn NightOwls.wsgi:application
