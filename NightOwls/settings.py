@@ -187,7 +187,7 @@ if 'USE_AWS' in os.environ:
         'CacheControl': 'max-age=94608000',
     }
 
-    
+
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'kirst8-nightowls'
     AWS_S3_REGION_NAME = 'eu-central-1'
@@ -212,5 +212,5 @@ STRIPE_CURRENCY = 'euro'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
-DEFAULT_FROM_EMAIL = 'Kirst95.brooker@gmail.com'
+DEFAULT_FROM_EMAIL = 'Kirst8.brooker@gmail.com'
 
