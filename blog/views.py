@@ -1,3 +1,7 @@
+from django.shortcuts import (
+    render, reverse, redirect, get_object_or_404
+)
+
 from .models import BlogPost, Comment
 from .forms import CommentForm
 from django.contrib import messages
