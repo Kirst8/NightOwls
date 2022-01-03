@@ -1,58 +1,44 @@
 [
-    {
-       "pk":1,
-       "model":"products.category",
-       "fields":{
-          "name":"Child development",
-          "friendly_name":"Child development,sleep training,schedule,motorskills "
-       }
-    },
-    {
-       "pk":2,
-       "model":"products.category",
-       "fields":{
-          "name":"Saftey",
-          "friendly_name":"Saftey, First aid, swimming,"
-       }
-    },
-    {
-       "pk":3,
-       "model":"products.category",
-       "fields":{
-          "name":"Nutrition",
-          "friendly_name":"Nutrition, Health ,"
-       }
-    },
-    {
-       "pk":4,  
-      "model":"products.category",
-       "fields":{
-          "name":"Diversity awareness",
-          "friendly_name":"Diversity awareness,Culture, communication"
-       }
-    },
-    {
-       "pk":5,
-       "model":"products.category",
-       "fields":{
-          "name":"Coding",
-          "friendly_name":"Full stack, Front-end, Back-end, HTML, CSS, Javascript, SQL and Python"
-       }
-    },
-    {
-       "pk":6,
-       "model":"products.category",
-       "fields":{
-          "name":"System Deployment",
-          "friendly_name":"ERP, RPA and Automation"
-       }
-    },
-    {
-       "pk":7,
-       "model":"products.category",
-       "fields":{
-          "name":"Special Offers",
-          "friendly_name":"Special offers, Deals, Promotions and Clearance items"
-       }
-    }
- ]
+   {
+      "pk":1,
+      "model":"products.product",
+      "fields":{
+            "sku":"pp0000000001",
+            "name":"Motorskills",
+            "description":"his Courses has been created to help children develop fine motor skills In the this course Children will receive a set of blocks and a booklet that has images of to create different structures,This course has been adapted for ages from 3-10 years so skills can be developed over a longer period of time.",
+            "price":89.00,
+            "category":1,
+            "rating":4.5,
+            "image_url":"url('/media/bluidingblocks.jpg)",
+            "image":"bluidingblocks.jpg"
+         }
+      },
+      {
+      "pk":2,
+      "model":"products.product",
+      "fields":{
+            "sku":"pp0000000002",
+            "name":"Saftey",
+            "description":"This Course was designed to help new families or educators understand the importance of saftey training.In this course you will be trained in first aid and how to handle situations that maybe life threating to ensure the saftey of the childern involved.",
+            "price":110.00,
+            "category":2,
+            "rating":4.5,
+            "image_url":"url('/media/first aid.jpg)",
+            "image":"first aid.jpg"
+         }
+      },
+      {
+      "pk":3,
+      "model":"products.product",
+      "fields":{
+            "sku":"pp0000000003",
+            "name":"Nutrition",
+            "description":"This is a simple guide into understanding why nutrition is important and how to create a simple yet effective way incorporate these aspects in everyday living for the childern and family.",
+            "price":50.00,
+            "category":3,
+            "rating":4.5,
+            "image_url":"url('/media/fruit.jpg)",
+            "image":"fruit.jpg"
+         }
+      }
+]
