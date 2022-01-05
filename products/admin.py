@@ -11,7 +11,6 @@ class ProductAdmin(admin.ModelAdmin):
         'category',
         'price',
         'rating',
-        'enrolled',
         'image',
     )
 

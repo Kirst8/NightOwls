@@ -35,12 +35,6 @@ class Product(models.Model):
         null=True,
         blank=True
         )
-    enrolled = models.DecimalField(
-        max_digits=6,
-        decimal_places=0,
-        null=False,
-        blank=False
-        )
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
 
