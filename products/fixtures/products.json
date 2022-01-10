@@ -40,5 +40,19 @@
             "image_url":"url('/media/fruit.jpg)",
             "image":"fruit.jpg"
          }
-      }
+      },
+      {
+         "pk":4,
+         "model":"products.product",
+         "fields":{
+               "sku":"pp0000000004",
+               "name":"Diversity awareness",
+               "description":"This is a simple guide into understanding why how to help childern and families intergrate with one another. the topics that will be addressed are different cultures , approach to discipline and improving vocabulary with general society",
+               "price":50.00,
+               "category":4,
+               "rating":4.5,
+               "image_url":"url('/media/reading.jpg)",
+               "image":"reading.jpg"
+            }
+         }
 ]
