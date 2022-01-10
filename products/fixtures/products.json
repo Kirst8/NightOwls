@@ -54,5 +54,19 @@
                "image_url":"url('/media/reading.jpg)",
                "image":"reading.jpg"
             }
-         }
+         },
+         {
+            "pk":5,
+            "model":"products.product",
+            "fields":{
+                  "sku":"pp0000000004",
+                  "name":"Saftey first and anything after",
+                  "description":"speical on our saftey courses and any development programme after that for free",
+                  "price":110.00,
+                  "category":4,
+                  "rating":4.5,
+                  "image_url":"url('/media/books.jpg)",
+                  "image":"books.jpg"
+               }
+            }
 ]
